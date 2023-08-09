@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, black ,100%,#ccc);
+    color: #fff;
+    border-radius: 8px;
+    height: 15%;
+    gap: 5px;
+    font-family: sans-serif;
+}
+.container:first-child{
+    font-size: 2rem;
+    width: 40%;
+}
+#btn{
+    padding: .6rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    background: linear-gradient(45deg, lime,yellow);
+    border: none;
+}
